@@ -10,6 +10,7 @@ config('translation.layout'):'translation::layout.minimal')
         <div class="card-body">
             <form action="{{route('translations.update', $translation->id)}}" method="POST">
                 @csrf
+                @method('PUT')
                 <div class="form-group">
                     <label for="key">{{__('Key')}}</label>
                     <input type="text" name="key"  value="{{old('key', $translation->key)}}" id="key" class="form-control" required>
