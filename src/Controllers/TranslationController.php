@@ -88,6 +88,8 @@ class TranslationController
             }
         }
 
+        $translation->save();
+
         return redirect()
             ->route('translations.edit', $id)
             ->with('success', __('Translation updated successfully'));
