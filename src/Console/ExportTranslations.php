@@ -16,7 +16,7 @@ class ExportTranslations extends Command
 
         $path = 'backup/'.date('Y-m-d_H-i-s');
 
-        // check if there exists a directory backup in the resource/lang directory
+        // check if there exists a directory backup in the lang directory
         if (!file_exists(lang_path('backup'))){
             // if not, create it
             mkdir(lang_path('backup'), 0777, true);
@@ -41,7 +41,7 @@ class ExportTranslations extends Command
             // encode the array to json
             $json = json_encode($array, JSON_PRETTY_PRINT);
 
-            // save the json file inside backup directory with todays datetime as prefix
+            // save the json file inside backup directory with today's datetime as prefix
             file_put_contents(
                 lang_path($path . '/' . $language . '.json'),
                 stripslashes($json));
