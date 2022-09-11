@@ -1,0 +1,23 @@
+{
+    "name": "msimonoska/translation",
+    "description": "Easy translation management module for Laravel",
+    "autoload": {
+        "psr-4": {
+            "Msimonoska\\Translation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "msimonoska",
+            "email": "simonoska@eagle.mk"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Msimonoska\\Translation\\Providers\\TranslationServiceProvider"
+            ]
+        }
+    }
+}
