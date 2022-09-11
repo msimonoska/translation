@@ -1,10 +1,4 @@
-# Translation Module for Laravel 5.5
-[![Latest Stable Version](https://poser.pugx.org/msimonoska/translation/v/stable)](https://packagist.org/packages/msimonoska/translation)
-[![Total Downloads](https://poser.pugx.org/msimonoska/translation/downloads)](https://packagist.org/packages/msimonoska/translation)
-[![Latest Unstable Version](https://poser.pugx.org/msimonoska/translation/v/unstable)](https://packagist.org/packages/msimonoska/translation)
-[![License](https://poser.pugx.org/msimonoska/translation/license)](https://packagist.org/packages/msimonoska/translation)
-[![Monthly Downloads](https://poser.pugx.org/msimonoska/translation/d/monthly)](https://packagist.org/packages/msimonoska/translation)
-[![Daily Downloads](https://poser.pugx.org/msimonoska/translation/d/daily)](https://packagist.org/packages/msimonoska/translation)
+# Translation Module for Laravel
 
 #### Table of contents
 - [Installation](#installation)
@@ -66,7 +60,7 @@ Once you install the package, you can use the following routes:
 - `DELETE /translations/{id}` - delete a translation
 
 ## Library Note:
-This is my first Laravel package, so if you find any bugs or have any suggestions, please let me know. It as fun to make it, so I will be happy to improve it :)
+This is my first Laravel package, so if you find any bugs or have any suggestions, please let me know. It was fun to make it, so I will be happy to improve it :)
 
 ## License
 This package is free software distributed under the terms of the [MIT license](https://opensource.org/licenses/MIT). Enjoy!
