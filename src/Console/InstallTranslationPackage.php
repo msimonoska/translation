@@ -54,7 +54,7 @@ class InstallTranslationPackage extends Command
             }
         }
 
-        $this->info('Installed BlogPackage');
+        $this->info('Installed Translation Package');
     }
 
     private function configExists($fileName)
